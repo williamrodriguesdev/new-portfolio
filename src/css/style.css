@@ -1,0 +1,365 @@
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-fonte);
+    font-family: "Montserrat", sans-serif;
+}
+
+.contato-fixed {
+    position: fixed;
+    text-align: center;
+    top: 80px;
+    right: 15px;
+}
+.redes-fixed, .voltar {
+    background-color: var(--card);
+    border-radius: 20px;
+
+}
+.voltar {
+    margin-top: 20px;
+}
+
+div.contato-fixed ul li i {
+    font-size: 30px;
+    margin: 10px;
+}
+div.contato-fixed ul li i:hover {
+    color: var(--cor-destaque);
+    transition: 0.5s;
+}
+
+header.header {
+    background-color: var(--cor-secundaria);
+    
+    
+}
+
+
+.nav-bar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 34px;
+    margin: 0 2rem;
+
+}
+ul.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    
+}
+
+.hamburguer {
+    cursor: pointer;
+    display: none;
+   
+    
+}
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+a.nav-item {
+    transition: 0.3s;
+    font-size: 1.5rem;
+}
+
+a.nav-item:hover {
+    color: var(--cor-destaque);
+}
+
+.logo {
+    font-size: 30px;
+    color: var(--cor-destaque);
+}
+
+
+/* HERO */
+
+div.hero {
+    margin: 50px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+   
+
+}
+
+div.conteudo-texto {
+    max-width: 50%;
+}
+h1.titulo {
+    font-size: 35px;
+    text-align: start;
+}
+h2.subtitulo {
+    color: rgb(255, 217, 0);
+    margin-bottom: 20px;
+    text-align: start;
+}
+p.texto {
+    text-align: start;
+    font-size: 1.4rem;
+}
+
+
+div.imagem-hero img {
+    max-width: 600px;
+    border-radius: 20px;
+    border: 10px solid var(--cor-secundaria);
+}
+
+/* Habilidades */
+
+section.habilidades {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--cor-secundaria);
+}
+
+h1,h3.titulo-habilidade {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    padding: 30px;
+    gap:50px;
+    
+    
+    
+}
+
+div.card {
+    background-color: var(--card);
+    height: 500px;
+    max-width: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex: 1 1 280px;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid var(--cor-de-fundo);
+    
+    
+    
+    
+}
+
+div.card:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+
+}
+.icone-habilidade {
+    font-size: 100px;
+    margin-bottom: 20px ;
+}
+p.info-habilidade {
+    text-align: center;
+    padding: 0 15px;
+    font-size: 1.2rem;
+    margin-bottom: auto;
+}
+button.btn-habilidades {
+    width: 100%;
+    padding: 15px;
+    border-radius: 0 0 20px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+
+
+/* Projetos */
+
+section#projetos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+div.container-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    justify-content: center;
+}
+div.card-projeto {
+    height: 600px;
+    padding: 20px;
+    max-width: 400px;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+
+}
+div.card-projeto h4 {
+    margin-bottom: 1rem;
+}
+
+div.card-projeto:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+h1.titulo-projeto {
+    margin: 20px;
+    font-size: 30px;
+}
+img.imagem {
+    background-color: grey;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+p.info-projeto {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+span {
+    font-weight: bolder;
+
+}
+button.btn-projetos {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+}
+
+.container-tecnologias  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+   
+}
+.container-tecnologias ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container-tecnologias li {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+div.link-repositorio {
+    display: flex;
+    gap: 30px;
+}
+
+div.link-repositorio span a {
+    background-color: var(--card);
+    padding: 10px;
+    border-radius: 10px;
+}
+div.link-repositorio span a:hover {
+    background-color: var(--hover);
+    color: var(--cor-secundaria);
+    transition: 0.3s;
+}
+
+/*Contatos */
+
+section#contatos {
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+
+}
+
+ul.redes-sociais {
+    display: flex;
+    gap: 20px;
+}
+.link-redes {
+    font-size: 3rem;
+}
+
+.link-redes:hover {
+    color: var(--cor-destaque);
+    transition: 0.5s;
+}
+
+.btn-curriculo {
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    background: green;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.btn-curriculo:hover {
+    background-color: rgb(29, 146, 29);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+footer.footer {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-de-fundo);
+}
+
+.slide-right {
+	-webkit-animation: slide-right 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-100px);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+    }
+    100% {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+  
