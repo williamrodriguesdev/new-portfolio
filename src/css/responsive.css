@@ -50,3 +50,13 @@
         width: 400px;
     }
 }
+
+@media (max-width:460px) {
+    p.info-habilidade, p.info-projeto {
+        font-size: 1.4rem;
+    }
+
+    .imagem-hero {
+        width: 300px;
+    }
+}
