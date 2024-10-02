@@ -7,8 +7,8 @@ body {
 .contato-fixed {
     position: fixed;
     text-align: center;
-    top: 80px;
-    right: 15px;
+    top: 8rem;
+    right: 1.5rem;
 }
 .redes-fixed, .voltar {
     background-color: var(--card);
