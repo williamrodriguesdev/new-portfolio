@@ -49,16 +49,23 @@
         text-align: center;
     }
     .imagem-hero img{
-        width: 30rem;
+        width: 40rem;
     }
 }
 
-@media (max-width:460px) {
+@media (max-width:460px) and (max-width: 767px) {
     p.info-habilidade, p.info-projeto {
         font-size: 1.4rem;
     }
 
     .imagem-hero img {
-        width: 20rem;
+        width: 30rem;
+    }
+    div.card {
+        width: 90%;
+    }
+
+    div.card-projeto {
+        width: 80%;
     }
 }
