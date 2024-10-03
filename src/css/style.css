@@ -155,7 +155,7 @@ h1,h3.titulo-habilidade {
 div.card {
     background-color: var(--card);
     height: 50rem;
-    max-width: 35rem;
+    width: 35rem;
     border-radius: 2rem;
     display: flex;
     flex: 1 1 28rem;
