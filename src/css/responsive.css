@@ -58,7 +58,7 @@
         font-size: 1.4rem;
     }
 
-    .imagem-hero {
-        width: 30rem;
+    .imagem-hero img {
+        width: 20rem;
     }
 }

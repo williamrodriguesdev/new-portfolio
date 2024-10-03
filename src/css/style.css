@@ -9,6 +9,7 @@ body {
     text-align: center;
     top: 8rem;
     right: 1.5rem;
+    z-index: 999;
 }
 .redes-fixed, .voltar {
     background-color: var(--card);
@@ -17,6 +18,8 @@ body {
 }
 .voltar {
     margin-top: 2rem;
+    
+
 }
 
 div.contato-fixed ul li i {
